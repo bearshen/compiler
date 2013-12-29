@@ -1,0 +1,24 @@
+var a;
+for (a = 0; a < 5; a = a + 1)
+{
+   if((a%2) == 0)
+       println "even";
+   else
+       println "odd";
+}
+println "";
+var b;
+for(b = 0; b < 3; b = b + 1)
+{
+   var c;
+   for(c = 0; c < 3; c = c + 1)
+       println (b+c);
+}
+println "";
+
+var d = 0;
+while(d < 4)
+{
+   println d;
+   d = d + 1;
+}

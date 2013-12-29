@@ -1,0 +1,11 @@
+function strcpy(dest, source, length){
+	var i;
+	for(i=0; i<length; i=i+1){
+		$(dest+i) = $(source+i);
+	}
+}
+
+var a[] = "abc   ";
+var b[] = "123";
+strcpy(a+3, b, 3);
+println a;

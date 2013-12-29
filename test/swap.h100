@@ -1,0 +1,22 @@
+charfunc char(x){
+	return x;
+}
+
+function int(x){
+	return x;
+}
+
+function swap(a,b){
+	var tmp;
+	tmp = $(a);
+	$(a) = $(b);
+	$(b) = tmp;
+}
+
+// test swap
+var x = 10;
+var y = 20;
+swap(&x, &y);
+println x;
+println y;
+

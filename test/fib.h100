@@ -1,0 +1,14 @@
+var c;
+var d;
+get c;
+d = fib(c);
+println d;
+function fib(a) {
+	if (a == 1 || a == 2) {
+		return 1;
+	}
+	else 
+	{ 
+		return ( fib (a-1) + fib (a-2) );
+	}
+}

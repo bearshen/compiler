@@ -1,0 +1,30 @@
+function func_b (i)
+{
+   return (i*2);
+}
+
+function func_c (i)
+{
+   var a = func_a(i);
+   var b = func_b(i);
+   return (a+b);
+}
+
+function func_d (i)
+{
+   if(i == 0)
+       println "zero!";
+   else
+   {
+       println i;
+       func_d(i-1);
+   }
+}
+
+println func_a(3);
+println "";
+println func_b(2);
+println "";
+println func_c(4);
+println "";
+println func_d(3);
